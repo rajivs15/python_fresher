@@ -3,11 +3,11 @@ year=int(input())
 if year%4==0:
     if year%100==0:
         if year%400==0:
-            print("leap")
+            print("Yes")
         else:
-            print("not")
+            print("No)")
     else:
-         print("leap year")
+         print("Yes")
             
 else:
-    print("not leap")
+    print("No")

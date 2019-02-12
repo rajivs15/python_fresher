@@ -5,4 +5,4 @@ while a<=n:
     
       add=add+a
       a=a+1
-      print(add)
+print(add)
